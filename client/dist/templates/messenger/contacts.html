@@ -1,0 +1,7 @@
+<div class="list-group">
+    <div class="list-group-item">
+        <input ng-model="search" class="form-control" placeholder="Search" ng-change="change()" />
+    </div>
+
+    <a ng-if="phone != c.phone" ng-repeat="c in contatcs" href="#!/main/{{ c.phone }}" class="list-group-item">{{ c.first_name }} {{ c.last_name }}</a>
+</div>

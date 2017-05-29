@@ -1,0 +1,74 @@
+    <!--<div class="col-xs-3 contacts">-->
+        <!--<div class="list-group">-->
+            <!--<div class="list-group-item">-->
+                <!--<input class="form-control" placeholder="Search" />-->
+            <!--</div>-->
+            <!--<a href="#" class="list-group-item active">-->
+                <!--Юрий Герасименко-->
+                <!--<span class="badge">14</span>-->
+            <!--</a>-->
+            <!--<a href="#" class="list-group-item">Dapibus ac facilisis in</a>-->
+            <!--<a href="#" class="list-group-item">-->
+                <!--Василий Пупкин-->
+                <!--<span class="badge">1</span>-->
+            <!--</a>-->
+            <!--<a href="#" class="list-group-item">Иван Чоботар</a>-->
+            <!--<a href="#" class="list-group-item">Валентин Настенко</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-xs-9 chat">-->
+        <!--<div class="panel panel-primary chat-panel">-->
+            <!--<div class="panel-heading">-->
+                <!--Юрий Герасименко-->
+            <!--</div>-->
+            <div class="panel-body messages-body">
+                <div class="messages" id="style-3">
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message you">Еще да !</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message"><b>Юрий Герасименко:</b> Привет, ты еще жив ?</div>-->
+                    <!--<div class="well message you">Еще да !</div>-->
+                    <div ng-repeat="m in messages" class="well message {{ m.cl }}"><b>{{ m.sender.first_name }} {{ m.sender.last_name }}:</b> {{ m.message }}</div>
+                </div>
+
+                <form ng-submit="send()">
+                <div class="input-group send-box">
+
+                    <input type="text" class="form-control" placeholder="Message..." ng-model="message">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" ng-click="send()">Send!</button>
+                    </span>
+
+                </div><!-- /input-group -->
+                </form>
+            </div>
+        <!--</div>-->
+
+
+    <!--</div>-->

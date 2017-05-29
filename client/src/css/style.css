@@ -1,0 +1,120 @@
+.root-container {
+    padding-top: 60px;
+}
+
+.create-btn {
+    margin-bottom: 20px;
+}
+
+.panel-link {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.carousel-caption {
+    width:180px;
+    color: #000000;
+    margin:0 auto;
+    text-shadow: none;
+}
+
+.carousel-inner .item img {
+    margin:0 auto;
+}
+
+.carousel-inner .item {
+    /*width:535px;*/
+    padding-bottom:128px;
+}
+
+.start-btn {
+    text-align: center;
+    margin-top:10px;
+}
+
+.contacts {
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+.chat {
+    padding-left: 5px;
+    padding-right: 0;
+    height: 100%;
+}
+
+.chat-panel {
+    height: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.root-container {
+    height: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.messages {
+    position:relative;
+    height: 100%;
+    overflow: scroll;
+    padding-bottom: 0;
+    /*margin-top:-40px;*/
+    padding-top:40px;
+    overflow-x: hidden;
+    margin-top:-40px;
+    margin-bottom:5px;
+
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: -17px;*/
+}
+
+.messages-body {
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px 0 5px;
+    overflow: hidden;
+    /*padding-bottom: 0;*/
+    /*margin-top:-40px;*/
+}
+
+.you {
+    text-align: right;
+    background: #fcf8e3!important;
+    border-color: #faebcc!important;
+}
+
+.message {
+    box-shadow: none;
+    padding: 5px;
+    margin-bottom:5px;
+    background: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.send-box {
+    margin-top: -5px;
+}
+
+.send-box input {
+    height: 34px;
+}
+
+.send-box button {
+    height: 34px;
+}
+
+.sad {
+    height: 64px;
+}

@@ -1,0 +1,35 @@
+<div class="col-lg-4 col-lg-offset-4">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2>Profile</h2>
+        </div>
+        <div class="panel-body">
+            <form ng-submit="submit()">
+                <div class="alert alert-danger" ng-if="error">
+                    {{ error }}
+                </div>
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input ng-model="profile.first_name" id="first-name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input ng-model="profile.last_name" id="last-name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="first-name">Skills</label>
+                    <select ng-model="profile.skills" class="form-control" multiple>
+                        <option>Doctor</option>
+                        <option>Soldier</option>
+                        <option>Engineer</option>
+                        <option>Supply</option>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary form-control" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
